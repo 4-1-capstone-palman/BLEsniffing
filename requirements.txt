@@ -1,0 +1,4 @@
+bluepy
+pymysql
+fastapi
+uvicorn
