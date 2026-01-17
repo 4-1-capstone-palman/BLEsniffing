@@ -1,4 +1,6 @@
-# BRDSB: BLE-based Real-time Detection and Screen Blocking System
+# BLE 기반 실시간 감지 및 화면 차단 시스템
+
+---
 
 ## 📖 프로젝트 개요 (Overview)
 **BRDSB**는 기업 회의실, 군사 시설, 시험장 등 높은 보안이 요구되는 공간(Zone)에서 **비인가 모바일 기기(Non-authorized Mobile Devices)의 반입 및 사용을 실시간으로 탐지하고 차단**하는 보안 시스템입니다.
