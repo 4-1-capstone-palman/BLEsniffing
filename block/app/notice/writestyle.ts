@@ -1,0 +1,182 @@
+import { StyleSheet } from 'react-native';
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#fff',
+    padding: 20,
+  },
+  section: {
+    marginBottom: 20,
+    backgroundColor: '#fff',
+    borderRadius: 8,
+    padding: 16,
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 1 },
+    shadowOpacity: 0.05,
+    shadowRadius: 2,
+    elevation: 1,
+  },
+  sectionHeader: {
+    borderBottomWidth: 1,
+    borderBottomColor: '#E0E0E0',
+    padding: 10,
+    backgroundColor: '#fff',
+  },
+  sectionLabel: {
+    fontWeight: 'bold',
+    fontSize: 15,
+    color: '#222',
+    marginBottom: 10,
+  },
+  inputContainer: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 10,
+  },
+  checkboxContainer: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 6,
+  },
+  checkbox: {
+    width: 18,
+    height: 18,
+    borderWidth: 1,
+    borderColor: '#ccc',
+    justifyContent: 'center',
+    alignItems: 'center',
+    borderRadius: 4,
+  },
+  checkboxChecked: {
+    backgroundColor: '#4b91cd',
+    borderColor: '#4b91cd',
+  },
+  checkboxLabel: {
+    fontSize: 14,
+    color: '#333',
+  },
+  titleInput: {
+    flex: 1,
+    height: 40,
+    borderWidth: 1,
+    borderColor: '#ddd',
+    borderRadius: 6,
+    paddingHorizontal: 12,
+    backgroundColor: '#fff',
+    fontSize: 14,
+  },
+  editorContainer: {
+    marginTop: 10,
+  },
+  contentInput: {
+    borderWidth: 1,
+    borderColor: '#ddd',
+    borderRadius: 6,
+    padding: 12,
+    minHeight: 160,
+    fontSize: 14,
+    backgroundColor: '#fff',
+    textAlignVertical: 'top',
+  },
+  datePickerContainer: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 8,
+    marginTop: 8,
+  },
+  dateHelpText: {
+    marginLeft: 10,
+    color: '#757575',
+    fontSize: 12,
+  },
+  dateInput: {
+    borderWidth: 1,
+    borderColor: '#ccc',
+    padding: 10,
+    borderRadius: 6,
+    width: 140,
+    backgroundColor: '#fff',
+    textAlign: 'center',
+    fontSize: 14,
+  },
+  attachmentContainer: {
+    marginTop: 16,
+    padding: 10,
+    backgroundColor: '#fff',
+    borderRadius: 6,
+  },
+  fileSection: {
+    marginTop: 16,
+  },
+  fileDropZone: {
+    borderWidth: 1,
+    borderColor: '#ccc',
+    borderRadius: 6,
+    borderStyle: 'dashed',
+    padding: 24,
+    alignItems: 'center',
+    justifyContent: 'center',
+    backgroundColor: '#fafafa',
+  },
+  fileAddText: {
+    fontSize: 14,
+    color: '#4b91cd',
+    textAlign: 'left',
+    paddingVertical: 10,
+  },
+  attachedFilesList: {
+    marginTop: 12,
+  },
+  attachedFile: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    padding: 10,
+    borderWidth: 1,
+    borderColor: '#eee',
+    borderRadius: 6,
+    backgroundColor: '#fff',
+    marginBottom: 8,
+  },
+  fileName: {
+    flex: 1,
+    fontSize: 14,
+    color: '#444',
+  },
+  removeFileButton: {
+    width: 24,
+    height: 24,
+    borderRadius: 12,
+    backgroundColor: '#f44336',
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  buttonGroup: {
+    flexDirection: 'row',
+    justifyContent: 'flex-end',
+    marginTop: 24,
+    gap: 12,
+  },
+  button: {
+    paddingVertical: 12,
+    paddingHorizontal: 20,
+    borderRadius: 6,
+  },
+  cancelButton: {
+    backgroundColor: '#ccc',
+  },
+  saveButton: {
+    backgroundColor: '#4b91cd',
+  },
+  cancelButtonText: {
+    color: '#fff',
+    fontWeight: 'bold',
+  },
+  saveButtonText: {
+    color: '#fff',
+    fontWeight: 'bold',
+  },
+});
+
+export default styles;
